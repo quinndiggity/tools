@@ -5,7 +5,7 @@
   "main": "browser.js",
   "license": "http://polymer.github.io/LICENSE.txt",
   "scripts": {
-    "audit": "npm audit"
+    "audit": "npm audit || true"
   },
   "repository": {
     "type": "git",
