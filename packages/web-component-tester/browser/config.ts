@@ -55,9 +55,8 @@ export let _config: Config = {
         'stacky/browser.js', 'async/dist/async.js', 'lodash/lodash.js',
         'mocha/mocha.js', 'chai/chai.js',
         'sinon-chai/lib/sinon-chai.js',
-        'sinon/pkg/sinon.js',
-        'accessibility-developer-tools/dist/js/axs_testing.js',
-        '@polymer/test-fixture/test-fixture.js'
+        'sinonjs/sinon.js',
+        'accessibility-developer-tools/dist/js/axs_testing.js'
       ],
 
   environmentImports: !!window.__wctUseNpm ? [] :
