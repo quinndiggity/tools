@@ -220,10 +220,9 @@ var _config = {
             '@polymer/test-fixture/test-fixture.js'
         ] :
         [
-            'stacky/browser.js', 'async/dist/async.js', 'lodash/lodash.js',
-            'mocha/mocha.js', 'chai/chai.js',
+            'stacky/browser.js', 'async/lib/async.js', 'lodash/lodash.js',
+            'mocha/mocha.js', 'chai/chai.js', 'sinonjs/sinon.js',
             'sinon-chai/lib/sinon-chai.js',
-            'sinonjs/sinon.js',
             'accessibility-developer-tools/dist/js/axs_testing.js'
         ],
     environmentImports: !!window.__wctUseNpm ? [] :
